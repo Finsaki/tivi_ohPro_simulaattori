@@ -12,4 +12,4 @@ Notice, the simulator uses Hibernate ORM to handle database connections, hiberna
 for database functionality to work.
 The class file in bin/akiko/ruokalasimu/model/SimulaattoriDAO has been modified to not end the running of program if no database is found,
 this is to make sure that program can be run without changes to hibernate.cfg.xml. This functionality should be uncommented when database
-is working. The program will run into errors if database spesific buttons are use without the database connected.
+is working. The program will run into errors if database spesific buttons are used without the database connected.
